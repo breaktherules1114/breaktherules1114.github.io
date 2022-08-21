@@ -1,0 +1,133 @@
+@import url('./tablet.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+.contain{
+    width: 1140px;
+    background-color: rgb(44, 162, 216);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0 0 20px 2px rgb(75, 75, 75);
+}
+.block{
+    background-color: rgb(212, 233, 243);
+    padding: 20px;
+}
+h2{
+    color: rgb(44, 162, 216);
+    font-size: 24px !important;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-bottom: 5px;
+}
+.goal-n-scopes{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.team-n-primary{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.timeline{
+    width: 24%;
+}
+.goal, .team{
+    height: 59%;
+}
+.scopes, .primary{
+    height: 39%;
+}
+.content-item{
+    display: flex;
+}
+.content-item h3, .scopes h3{
+    font-size: 16px !important;
+}
+p{
+    font-size: 14px !important;
+}
+.scopes-content{
+    display: flex;
+}
+.primary-item{
+    display: flex;
+}
+i{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.timeline i{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid rgb(207, 74, 152);
+    background-color: rgb(77, 226, 189);
+    margin-top: 20px;
+    margin-right: 10px !important;
+}
+.timeline .content-detail, .goal .content-item{
+    border-bottom: 1px solid rgb(194, 194, 194);
+    padding: 10px;
+    
+}
+.timeline .content-item p, .goal .content-item p{
+    margin-bottom: 0 !important;
+}
+.scopes-item{
+    padding: 0 5px;
+}
+.team-content-tb{
+    display: none;
+}
+/*tablet display*/
+@media only screen and (max-width:815px){
+    .contain{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    .goal-n-scopes, .team-n-primary, .timeline{
+        width: 100%;
+    }
+    .team-content{
+        display: none;
+    }
+    .team-content-tb{
+        display: flex;
+    }
+    .content-detail{
+        width: 100%;
+    }
+    @media only screen and (max-width:400px){
+        .goal i, .team i{
+            display: none !important;
+        }
+        .team-content{
+            display: block;
+            margin-left: 30px;
+        }
+        .team-content-tb{
+            display: none;
+        }
+    }
+
+}

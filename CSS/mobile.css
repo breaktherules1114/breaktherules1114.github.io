@@ -1,0 +1,15 @@
+.chung-chi-mb .award{
+    width: 300px;
+}
+.chung-chi-mb .stage-item{
+    width:250px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.chung-chi-mb{
+    background-color: rgb(245, 245, 245);
+}
+.chung-chi-mb .right{
+    border-top: 1px solid rgb(245, 120, 62);
+    border-bottom: 1px solid rgb(245, 120, 62);
+}

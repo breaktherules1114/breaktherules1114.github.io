@@ -1,0 +1,36 @@
+.col-md .ex, .col-md .skill, .col-md .fav, .col-md .edu
+, .col-md .acti, .col-md .language {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.ly-lich-tb{
+    margin-top: 40px;
+}
+.du-an-tb{
+    width: 80%;
+    margin: 40px auto;
+}
+.du-an-tb .project-item{
+    width: 270px;
+    margin-bottom: 30px;
+}
+.du-an-tb .project-item img{
+    width: 100%;   
+}
+.du-an-tb .project-item .project-title{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.du-an-tb .year{
+    height: 30px;
+}
+.du-an-tb .td1{
+    width: 50px;
+}
+.du-an-tb .project-info{
+    padding: 10px 0;
+}
+.du-an-tb .company, .du-an-tb .pos{
+    height: 30px;
+}
